@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pablo Muñoz Pedrero | Portfolio</title>
     <meta name="description"
-        content="Portfolio profesional de Pablo Muñoz Pedrero, desarrollador en formación especializado en Java, desarrollo web y bases de datos." />
+        content="Portfolio de Pablo Muñoz Pedrero, Técnico Superior en Desarrollo de Aplicaciones Web y estudiante de Desarrollo de Aplicaciones Multiplataforma." />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -14,23 +15,30 @@
     <header class="hero" id="inicio">
         <nav class="nav container">
             <div class="logo">Pablo Muñoz Pedrero<span>.</span></div>
+
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-            <button class="menu-btn" id="menu-btn">☰</button>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">☰</button>
         </nav>
 
         <div class="hero-content container">
             <div class="hero-text">
                 <p class="tag">Portfolio profesional</p>
+
                 <h1>Hola, soy <span>Pablo Muñoz Pedrero</span></h1>
+
                 <p class="subtitle">
-                    Desarrollador en formación de DAW con interés en Java, JavaScript, React, desarrollo web,
-                    bases de datos y sistemas.
+                    Técnico Superior en Desarrollo de Aplicaciones Web (DAW) y estudiante
+                    de 2.º de Desarrollo de Aplicaciones Multiplataforma (DAM).
+                    Interesado en el desarrollo de software, aplicaciones web, móviles
+                    y bases de datos.
                 </p>
+
                 <div class="hero-buttons">
                     <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
                     <a href="#contacto" class="btn btn-secondary">Contactar</a>
@@ -39,16 +47,19 @@
 
             <div class="hero-card">
                 <div class="card-glow"></div>
+
                 <div class="profile-box">
                     <div class="avatar">
-                        <img src="images/fotoCurriculum.png" alt="Pablo Muñoz Pedrero">
+                        <img src="images/fotoCurriculum.png" alt="Foto de Pablo Muñoz Pedrero">
                     </div>
+
                     <h3>Pablo Muñoz Pedrero</h3>
-                    <p>DAW · Java · Web · MySQL</p>
+                    <p>DAW · DAM · Java · Desarrollo web</p>
+
                     <ul>
-                        <li>✔ Portfolio listo para empresas</li>
-                        <li>✔ Diseño responsive</li>
-                        <li>✔ Proyectos destacados</li>
+                        <li>✔ Técnico Superior en DAW</li>
+                        <li>✔ Estudiante de 2.º de DAM</li>
+                        <li>✔ Proyectos de desarrollo</li>
                     </ul>
                 </div>
             </div>
@@ -61,28 +72,49 @@
                 <p>Presentación</p>
                 <h2>Sobre mí</h2>
             </div>
+
             <div class="about-grid">
                 <div class="about-text card">
                     <p>
-                        Soy <strong>Pablo Muñoz Pedrero</strong>, estudiante de
-                        <strong>Desarrollo de Aplicaciones Web (DAW)</strong>.
-                        Me gusta crear proyectos completos que combinen programación,
-                        lógica, bases de datos, diseño web y documentación técnica.
+                        Soy <strong>Pablo Muñoz Pedrero</strong>, Técnico Superior en
+                        <strong>Desarrollo de Aplicaciones Web (DAW)</strong> y actualmente
+                        estoy cursando <strong>2.º de Desarrollo de Aplicaciones
+                        Multiplataforma (DAM)</strong>.
                     </p>
+
                     <p>
-                        Estoy construyendo experiencia con proyectos reales donde aplico
-                        <strong>Java, MySQL, HTML, CSS, JavaScript, React, Node.js y Git</strong>,
-                        buscando siempre que el resultado sea funcional, claro y profesional.
+                        Me interesa el desarrollo de software y la creación de aplicaciones
+                        que combinen programación, lógica, bases de datos y diseño.
+                        He trabajado con tecnologías como
+                        <strong>Java, Python, Spring Boot, React, JavaScript, HTML,
+                        CSS, Node.js, MySQL, MongoDB, SQLite, Supabase y Git</strong>.
                     </p>
+
                 </div>
 
                 <div class="about-info card">
                     <h3>Perfil rápido</h3>
+
                     <div class="info-list">
-                        <div><span>Formación</span><strong>DAW</strong></div>
-                        <div><span>Especialidad</span><strong>JavaScript y React</strong></div>
-                        <div><span>Base de datos</span><strong>MySQL</strong></div>
-                        <div><span>Objetivo</span><strong>Prácticas / Empleo</strong></div>
+                        <div>
+                            <span>Formación</span>
+                            <strong>DAW finalizado</strong>
+                        </div>
+
+                        <div>
+                            <span>Estudios actuales</span>
+                            <strong>2.º DAM</strong>
+                        </div>
+
+                        <div>
+                            <span>Especialidad</span>
+                            <strong>Desarrollo de software</strong>
+                        </div>
+
+                        <div>
+                            <span>Base de datos</span>
+                            <strong>SQL y NoSQL</strong>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,17 +128,21 @@
                 </div>
 
                 <div class="projects-grid">
+
                     <article class="project-card card">
                         <div class="project-top">
                             <span class="badge">Java</span>
                             <span class="badge">MySQL</span>
                         </div>
+
                         <h3>Aventura Ninja: Naruto</h3>
+
                         <p>
-                            Juego desarrollado en Java con sistema de login, menús, combate,
-                            personajes, lógica orientada a objetos y preparación para conexión
-                            con base de datos MySQL.
+                            Juego desarrollado en Java con sistema de login, menús,
+                            combate, personajes, lógica orientada a objetos y preparación
+                            para conexión con base de datos MySQL.
                         </p>
+
                         <ul>
                             <li>Sistema de usuarios</li>
                             <li>Combate y progresión</li>
@@ -120,12 +156,16 @@
                             <span class="badge">CSS</span>
                             <span class="badge">JavaScript</span>
                         </div>
+
                         <h3>Página web sobre Uber Eats</h3>
+
                         <p>
-                            Desarrollo de una página web inspirada en Uber Eats, centrada en
-                            una interfaz visual atractiva, estructura clara y experiencia de
-                            usuario intuitiva para mostrar restaurantes, pedidos y navegación.
+                            Desarrollo de una página web inspirada en Uber Eats,
+                            centrada en una interfaz visual atractiva, estructura
+                            clara y experiencia de usuario intuitiva para mostrar
+                            restaurantes, pedidos y navegación.
                         </p>
+
                         <ul>
                             <li>Diseño responsive</li>
                             <li>Interfaz moderna y visual</li>
@@ -139,18 +179,72 @@
                             <span class="badge">Node.js</span>
                             <span class="badge">Full Stack</span>
                         </div>
+
                         <h3>Aplicación web completa</h3>
+
                         <p>
-                            Proyecto de aplicación web completa siguiendo una arquitectura
-                            cliente/servidor limpia, cubriendo todas las etapas del desarrollo:
-                            toma de requisitos, prototipado, pruebas y despliegue.
+                            Proyecto de aplicación web completa siguiendo una
+                            arquitectura cliente/servidor, cubriendo distintas
+                            etapas del desarrollo: toma de requisitos, prototipado,
+                            pruebas y despliegue.
                         </p>
+
                         <ul>
                             <li>Frontend con React</li>
                             <li>Backend con Node.js</li>
                             <li>Análisis, pruebas y despliegue</li>
                         </ul>
                     </article>
+
+                    <article class="project-card card">
+                        <div class="project-top">
+                            <span class="badge">DAM</span>
+                            <span class="badge">Java</span>
+                            <span class="badge">SQLite</span>
+                        </div>
+
+                        <h3>VulnFollowUp</h3>
+
+                        <p>
+                            Proyecto intermodular de 2.º de DAM orientado al desarrollo
+                            de una plataforma para gestionar activos tecnológicos,
+                            registrar vulnerabilidades, evaluar riesgos mediante CVSS
+                            y realizar seguimiento de procesos de remediación.
+                        </p>
+
+                        <ul>
+                            <li>Gestión de activos y vulnerabilidades</li>
+                            <li>Evaluación y priorización de riesgos</li>
+                            <li>Seguimiento de remediaciones</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card card">
+                        <div class="project-top">
+                            <span class="badge">Unity 3D</span>
+                            <span class="badge">C#</span>
+                            <span class="badge">Desarrollo 3D</span>
+                        </div>
+
+                        <h3>Circuito de vehículos 3D</h3>
+
+                        <p>
+                            Desarrollo de un videojuego de conducción en Unity 3D,
+                            basado en un circuito cerrado con un vehículo controlable
+                            y diferentes elementos interactivos. Proyecto centrado
+                            en la implementación de físicas, movimiento, colisiones
+                            e interacción con el entorno.
+                        </p>
+
+                        <ul>
+                            <li>Control del vehículo y rotación de ruedas</li>
+                            <li>Obstáculos y superficies con efectos sobre la velocidad</li>
+                            <li>Sistema de salida, meta y cronómetro</li>
+                            <li>Gestión de escenas y eventos mediante Triggers</li>
+                            <li>Efectos de partículas y sonido</li>
+                        </ul>
+                    </article>
+
                 </div>
             </div>
         </section>
@@ -163,13 +257,20 @@
 
             <div class="skills-grid">
                 <div class="skill card">Java</div>
-                <div class="skill card">MySQL</div>
+                <div class="skill card">Python</div>
+                <div class="skill card">Spring Boot</div>
+                <div class="skill card">Android Studio</div>
                 <div class="skill card">HTML5</div>
                 <div class="skill card">CSS</div>
                 <div class="skill card">JavaScript</div>
-                <div class="skill card">GitHub</div>
                 <div class="skill card">React</div>
                 <div class="skill card">Node.js</div>
+                <div class="skill card">MySQL</div>
+                <div class="skill card">MongoDB</div>
+                <div class="skill card">SQLite</div>
+                <div class="skill card">Supabase</div>
+                <div class="skill card">XML</div>
+                <div class="skill card">Git / GitHub</div>
             </div>
         </section>
 
@@ -182,11 +283,19 @@
 
                 <div class="contact-box card">
                     <div class="contact-links">
-                        <a href="mailto:pm615241@gmail.com" class="contact-link">📧 pm615241@gmail.com</a>
-                        <a href="https://github.com/Pbloo92" target="_blank" class="contact-link">💻
-                            github</a>
-                        <a href="https://www.linkedin.com/in/pablo-mu%C3%B1oz-pedrero-4754083b1/" target="_blank"
-                            class="contact-link">🔗 linkedIn</a>
+                        <a href="mailto:pm615241@gmail.com" class="contact-link">
+                            📧 pm615241@gmail.com
+                        </a>
+
+                        <a href="https://github.com/Pbloo92" target="_blank"
+                            rel="noopener noreferrer" class="contact-link">
+                            💻 GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/pablo-mu%C3%B1oz-pedrero-4754083b1/"
+                            target="_blank" rel="noopener noreferrer" class="contact-link">
+                            🔗 LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>
